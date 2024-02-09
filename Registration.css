@@ -1,0 +1,58 @@
+
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../Componts/backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 0px;
+    padding: 0 40px; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  label {
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 10px ;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #005aa6;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
