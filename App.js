@@ -1,33 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import ViewHome from './Pages/ViewHome';
-import Registration from './Pages/Registration';
-import Login from './Pages/Login';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
-import HomePage from './Pages/HomePage';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ViewHome from './ViewHome';
+import Registration from './Registration';
+import Login1 from './Login1';
+import './Login1.css';
+import './Registration.css';
+import './Viewhome.css';
 
-function App() {
-  return (
-<>
-<Router>
-
-      <Routes>
-        <Route path='' exact element={<ViewHome/>} />
-        <Route path='/register' element={<Registration/>} />
-        <Route path='/Login' exact element={<Login/>} />
-        <Route path='/home' element={<HomePage/>} /> 
-        
-      </Routes>
-
-
-
-    
-</Router>
-
-    
-    </>
-  );
-}
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<ViewHome />} />
+      <Route path="/register" element={<Registration />} />
+      <Route path="/Login1" element={<Login1 />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
-

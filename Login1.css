@@ -1,14 +1,14 @@
-.registration-container {
+
+.login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url('https://m.media-amazon.com/images/I/71PFu9YlpuL._AC_UF1000,1000_QL80_.jpg');
     background-image: url('backgroundimage.jpg');
     background-size: cover;
     background-position: center;
-    margin-left: 0px;
-    padding: 0 40px; 
   }
   
   form {
@@ -18,39 +18,44 @@
     max-width: 400px;
     width: 100%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: Black; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    background: linear-gradient(to right, #052644, #132660,  #132660, #052644);
     border-radius: 5px;
     margin-top: 20px;
   }
   
   label {
     margin: 10px 0;
+    Color:White;
   }
   
   input {
-    padding: 10px ;
-    margin-bottom: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
     width: 100%;
   }
   
   button {
-    padding: 12px;
-    background-color: blue;
-    color: white;
+    padding: 10px;
+    background-color: rgb(35, 209, 79); 
+    color: #ffffff;
     border: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
-    width: 100%;
+    width: 100%; 
   }
   
   button:hover {
-    background-color: #005aa6;
+    background-color: rgb(35, 209, 79); 
   }
   
   h2 {
     text-align: center;
     color: #333;
-    margin-bottom: 20px;
-}
+    margin-bottom:20px;
+  }
+  .Link1{
+    color: #ffffff;
+  }

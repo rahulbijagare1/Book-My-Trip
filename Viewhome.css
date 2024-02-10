@@ -1,0 +1,23 @@
+.viewhome-container {
+    background-image: url('viewhome.jpg'); /* Replace with the actual path to your image */
+   /* background-image: url(''); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container button {
+    margin: 10px;
+    padding: 15px 20px;
+    font-size: 18px;
+  }
